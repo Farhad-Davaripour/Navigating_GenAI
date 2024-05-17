@@ -30,7 +30,7 @@ st.title("GPT Response Generator")
 
 st.info(
     """
-    This dashboard generates responses using a transformer neural network based on the provided prompt.
+    This dashboard uses the GPT-4o language model to generate responses based on the input prompt.
     """
 )
 
