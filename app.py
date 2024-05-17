@@ -35,7 +35,10 @@ st.info(
 )
 
 # User input for the prompt
-prompt = st.text_input("Enter your prompt:", "where do I live? respond with only one word. Example: California.")
+prompt = "Guess where I live? respond with only one word. Example: California."
+
+st.subheader("Prompt")
+st.write(prompt)
 
 if st.button("Generate Response"):
     generate_and_display_responses(prompt)
