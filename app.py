@@ -2,7 +2,7 @@ import streamlit as st
 from core.core import create_message_text, generate_response, process_and_plot
 
 # Define sliders in the sidebar
-max_tokens = st.sidebar.slider("Max Tokens", min_value=1, max_value=10, value=1, step=1)
+max_tokens = 2
 temperature = st.sidebar.slider("Temperature", min_value=0.0, max_value=1.0, value=0.8, step=0.01)
 top_p = st.sidebar.slider("Top P", min_value=0.0, max_value=1.0, value=0.8, step=0.01)
 top_logprobs = st.sidebar.slider("Top Logprobs", min_value=1, max_value=10, value=5, step=1)
