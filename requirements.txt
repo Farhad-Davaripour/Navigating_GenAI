@@ -5,3 +5,6 @@ matplotlib
 panel
 ipykernel
 streamlit
+numpy
+scikit-learn
+ PyPDF2
