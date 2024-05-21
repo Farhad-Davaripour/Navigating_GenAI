@@ -1,8 +1,12 @@
 # RAG and GPT Next Token Generator Demo
 
-This repository demonstrates how to run a basic Retrieval Augmented Generation (RAG) pipeline from scratch. Furthermore, it shows how large language models (LLMs) like GPT-4o predict the next token by adjusting the `temperature` and `top_p` parameters. The next token prediction demo is deployed using Streamlit and can be accessed from the link below:
+This repository demonstrates how to run a basic Retrieval Augmented Generation (RAG) pipeline from scratch. Open the demo in Google Colab from the link below:   
+<a href="https://colab.research.google.com/github/Farhad-Davaripour/Navigating_GenAI/blob/main/rag/basic_rag_demo.ipynb" target="_parent">
+    <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open in Colab"/>
+</a>
 
-[![Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://navigating-genai.streamlit.app/)
+ Furthermore, it shows how large language models (LLMs) like GPT-4o predict the next token by adjusting the `temperature` and `top_p` parameters. The next token prediction demo is deployed using Streamlit and can be accessed from the link below:
+ [![Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://navigating-genai.streamlit.app/)
 
 ## Features
 
