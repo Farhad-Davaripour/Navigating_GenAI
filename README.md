@@ -11,35 +11,11 @@ This repository demonstrates how to run a basic Retrieval Augmented Generation (
 - Visualize log probabilities of predicted tokens.
 - Parse and retrieve text chunks from a PDF document to respond to a domain specific query.
 
-## Installation
+## OpenAI API Keys
+In order to run the basic_rag_demo the API key to gpt-40 could be created/retrieved form the link below:
+[OpenAI API Key](https://platform.openai.com/docs/overview)
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/Farhad-Davaripour/Navigating_GenAI.git
-   cd Navigating_GenAI
-    ```
-2. Install the required packages:
-
-    ```bash
-    pip install -r requirements.txt
-    ```
-3. Set up your environment variables:
-Create a .env file and add your OpenAI API key:
-
-    ```bash
-    OPENAI_API_KEY=your_openai_api_key
-    ```
-
-## Running the Streamlit App
-
-Run the Streamlit app:
-```bash
-streamlit run app.py
-```
-
-Open your browser and go to [http://localhost:8501](http://localhost:8501) to access the dashboard.
-
-Alternatively the next token prediction app is accessible via this [link](https://navigating-genai.streamlit.app/)
+`Note`: Once you logged into OpenAI platform, find the API key from the sidebar:
 
 ## License
 This project is licensed under the MIT License.
