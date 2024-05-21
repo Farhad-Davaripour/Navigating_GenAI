@@ -8,7 +8,7 @@ streamlit
 numpy
 scikit-learn
 PyPDF2
-sklearn
+scikit-learn
 langchain
 langchain_core
 langchain_openai
