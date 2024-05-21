@@ -5,7 +5,7 @@ This repository demonstrates how to run a basic Retrieval Augmented Generation (
     <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open in Colab"/>
 </a>
 
- Furthermore, it shows how large language models (LLMs) like GPT-4o predict the next token by adjusting the `temperature` and `top_p` parameters. The next token prediction demo is deployed using Streamlit and can be accessed from the link below:
+ Furthermore, it shows how large language models (LLMs) like GPT-4o predict the next token by adjusting the `temperature` and `top_p` parameters. The next token prediction demo is deployed using Streamlit and can be accessed from the link below:   
  [![Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://navigating-genai.streamlit.app/)
 
 ## Features
