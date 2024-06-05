@@ -6,19 +6,19 @@ This repository includes four demos as follows:
  [![Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://navigating-genai.streamlit.app/)
 
 2. `Prompt Engineering`: In this demo, the students learn how to use prompt engineering techniques to guid the model in retrieving desired output:   
-<a href="https://colab.research.google.com/github/Farhad-Davaripour/Navigating_GenAI/blob/main/prompt_engineering/prompt_engineering_demo.ipynb" target="_parent">
-    <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open in Colab"/>
-</a>
+    <a href="https://colab.research.google.com/github/Farhad-Davaripour/Navigating_GenAI/blob/main/prompt_engineering/prompt_engineering_demo.ipynb" target="_parent">
+        <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open in Colab"/>
+    </a>
 
 3. `Retrieval Augmented Generation (RAG)`: This example shows how to run a basic RAG pipeline from scratch. Open the demo in Google Colab from the link below:   
-<a href="https://colab.research.google.com/github/Farhad-Davaripour/Navigating_GenAI/blob/main/rag/basic_rag_demo.ipynb" target="_parent">
-    <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open in Colab"/>
-</a>
+    <a href="https://colab.research.google.com/github/Farhad-Davaripour/Navigating_GenAI/blob/main/rag/basic_rag_demo.ipynb" target="_parent">
+        <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open in Colab"/>
+    </a>
 
 4. `Function Calling`: This demo provides an example of a basic function calling, which could be accessed in the Google Colab from the link below:   
-<a href="https://colab.research.google.com/github/Farhad-Davaripour/Navigating_GenAI/blob/main/function_calling/function_calling_demo.ipynb" target="_parent">
-    <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open in Colab"/>
-</a>
+    <a href="https://colab.research.google.com/github/Farhad-Davaripour/Navigating_GenAI/blob/main/function_calling/function_calling_demo.ipynb" target="_parent">
+        <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open in Colab"/>
+    </a>
 
 ## Features
 
