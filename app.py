@@ -22,7 +22,6 @@ def generate_and_display_responses(prompt):
     # Process and plot
     st.subheader("Response Plot")
     fig = process_and_plot(response)
-    st.set_option('deprecation.showPyplotGlobalUse', False)
     st.pyplot(fig)
 
 # Streamlit app layout
