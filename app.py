@@ -35,12 +35,12 @@ st.info(
     """
 )
 
+st.subheader("Prompt")
+
 # User input for the prompt
 prompt = st.text_input("Enter your prompt here:", value="What is the sum of 23 and 376? Only return the resulting number.")
 if not prompt:
     prompt = "What is the sum of 23 and 376? Only return the resulting number."
-
-st.subheader("Prompt")
 
 if st.button("Generate Response"):
     generate_and_display_responses(prompt)
