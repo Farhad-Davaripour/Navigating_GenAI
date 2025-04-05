@@ -1,5 +1,6 @@
 import streamlit as st
 from core.core import create_message_text, generate_response, process_and_plot
+st.set_option('deprecation.showPyplotGlobalUse', False)
 
 # Define sliders in the sidebar
 max_tokens = 2
