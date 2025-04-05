@@ -27,24 +27,24 @@ def generate_response(message_text, max_tokens, top_p, temperature, top_logprobs
     return response
 
 def create_message_text(text):
-    messages=[
+    messages = [
         {
-        "role": "system",
-        "content": [
-            {
-            "type": "text",
-            "text": "You are an ai assistance that predicts the answer to the questions of the user using your creativity."
-            }
-        ]
+            "role": "system",
+            "content": [
+                {
+                    "type": "text",
+                    "text": "You are an ai assistance that predicts the answer to the questions of the user using your creativity."
+                }
+            ]
         },
         {
-        "role": "user",
-        "content": [
-            {
-            "type": "text",
-            "text": f"{text}"
-            }
-        ]
+            "role": "user",
+            "content": [
+                {
+                    "type": "text",
+                    "text": f"{text}"
+                }
+            ]
         },
     ]
     return messages
@@ -81,7 +81,7 @@ def create_dataframe(tokens, probabilities, groups):
     })
 
 def plot_log_probabilities(df):
-    """Plots the log probabilities of tokens by group."""
+    """Plots the log probabilities of tokens by group and returns the figure."""
     num_groups = df['Token Group'].nunique()
     fig, axes = plt.subplots(1, num_groups, figsize=(5 * num_groups, 4), sharey=True)
     fig.suptitle('Log Probability Distribution of Next Tokens by Group for Completion 1')
@@ -97,10 +97,11 @@ def plot_log_probabilities(df):
         ax.set_xticklabels(group_df['Token'], rotation=45)
 
     plt.tight_layout()
-    plt.show()
+    return fig
 
 def process_and_plot(response):
     """Main function to process the API response and plot the log probabilities."""
     tokens, probabilities, groups = extract_data(response)
     df = create_dataframe(tokens, probabilities, groups)
-    plot_log_probabilities(df)
+    fig = plot_log_probabilities(df)
+    return fig
