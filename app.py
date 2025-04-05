@@ -42,4 +42,3 @@ st.write(prompt)
 
 if st.button("Generate Response"):
     generate_and_display_responses(prompt)
-```
