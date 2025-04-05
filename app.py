@@ -21,7 +21,10 @@ def generate_and_display_responses(prompt):
 
     # Process and plot
     st.subheader("Response Plot")
-    fig, ax = plt.subplots()
+    if ax is None:
+        fig, ax = plt.subplots()
+    else:
+        fig = ax.figure
     process_and_plot(response, ax=ax)
     st.pyplot(fig)
 
