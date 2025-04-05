@@ -31,8 +31,7 @@ st.title("GPT Response Generator")
 
 st.info(
     """
-    This dashboard uses the GPT-4o language model to generate responses based on the input prompt.
-    """
+This dashboard uses the GPT-4o language model to generate responses based on the input prompt. Structure your prompt to return only a single-word answer, as the maximum output token is set to 1.    """
 )
 
 st.subheader("Prompt")
